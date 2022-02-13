@@ -35,9 +35,9 @@ function rollClass() {
 //Stats assigned based on Class
 
 function assignStats () {
-	rollSixStats()
-	rollClass()
-	if (playerClass = "Barbarian") {
+	sixStats = rollSixStats()
+	playerClass = rollClass()
+	if (playerClass == "Barbarian") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -45,7 +45,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Bard") {
+	} else if (playerClass == "Bard") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -53,7 +53,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Cleric") {
+	} else if (playerClass == "Cleric") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -61,7 +61,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Druid") {
+	} else if (playerClass == "Druid") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -69,7 +69,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Fighter") {
+	} else if (playerClass == "Fighter") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -77,7 +77,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Monk") {
+	} else if (playerClass == "Monk") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -85,7 +85,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Paladin") {
+	} else if (playerClass == "Paladin") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -93,7 +93,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Ranger") {
+	} else if (playerClass == "Ranger") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -101,7 +101,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Rogue") {
+	} else if (playerClass == "Rogue") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -109,7 +109,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Sorcerer") {
+	} else if (playerClass == "Sorcerer") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -117,7 +117,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Warlock") {
+	} else if (playerClass == "Warlock") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
@@ -125,7 +125,7 @@ function assignStats () {
 		Intelligence ${sixStats[0]},
 		Wisdom ${sixStats[0]},
 		Charisma ${sixStats[0]}.`)
-	} else if (playerClass = "Wizard") {
+	} else if (playerClass == "Wizard") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
 		Dexterity ${sixStats[0]},
