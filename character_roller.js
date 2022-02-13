@@ -35,16 +35,16 @@ function rollClass() {
 //Stats assigned based on Class
 
 function assignStats () {
-	rollSixStats()
-	rollClass()
+	sixStats = rollSixStats()
+	playerClass = rollClass()
 	if (playerClass = "Barbarian") {
-		window.alert(`Your stats, assigned optimally by your class, are:
+		window.alert(`Barbarian, Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
-		Dexterity ${sixStats[0]},
-		Constitution ${sixStats[0]},
-		Intelligence ${sixStats[0]},
-		Wisdom ${sixStats[0]},
-		Charisma ${sixStats[0]}.`)
+		Dexterity ${sixStats[2]},
+		Constitution ${sixStats[1]},
+		Intelligence ${sixStats[3]},
+		Wisdom ${sixStats[4]},
+		Charisma ${sixStats[5]}.`)
 	} else if (playerClass = "Bard") {
 		window.alert(`Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
