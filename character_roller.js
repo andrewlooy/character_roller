@@ -28,7 +28,7 @@ function rollClass() {
 	const classArray = ["Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]
 	const classNumber = Math.floor(Math.random() * 12)
 	const playerClass = classArray[classNumber]
-	window.alert(playerClass)
+
 	return playerClass
 }
 
@@ -37,6 +37,7 @@ function rollClass() {
 function assignStats () {
 	sixStats = rollSixStats()
 	playerClass = rollClass()
+	window.alert(playerClass)
 	if (playerClass = "Barbarian") {
 		window.alert(`Barbarian, Your stats, assigned optimally by your class, are:
 		Strength ${sixStats[0]},
